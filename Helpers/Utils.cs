@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Read.XLSX.Domain.Models;
 
 namespace Read.XLSX.WEBAPI.Helpers
 {
     public static class Utils
     {
+        public static Pagamento GetPagamento()
+        {
+            return new Pagamento();
+        }
     }
 }
