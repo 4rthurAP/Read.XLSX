@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read.XLSX.WEBAPI", "Read.XLSX.WEBAPI.csproj", "{B0A4835A-3D1E-47C9-A211-266780FB38CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Read.XLSX.Api", "Read.XLSX.Api", "{BFCDC5B8-791D-449D-B28F-676189144B6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Read.XLSX.SoftwareContext", "Read.XLSX.SoftwareContext", "{8268720A-16B1-40B8-97E6-B19121D66167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read.XLSX.Domain", "..\Read.XLSX.Domain\Read.XLSX.Domain.csproj", "{46A4D0EE-C7C4-4520-BC1D-3FD6D025CA01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read.XLSX.Application", "..\Read.XLSX.Application\Read.XLSX.Application.csproj", "{F39200A9-E744-4DD8-80E2-C43C54285937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read.XLSX.Infra", "..\Read.XLSX.Infra\Read.XLSX.Infra.csproj", "{9B04A844-3282-4084-B3BA-1F5B15E355F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0A4835A-3D1E-47C9-A211-266780FB38CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A4835A-3D1E-47C9-A211-266780FB38CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A4835A-3D1E-47C9-A211-266780FB38CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A4835A-3D1E-47C9-A211-266780FB38CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A4D0EE-C7C4-4520-BC1D-3FD6D025CA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A4D0EE-C7C4-4520-BC1D-3FD6D025CA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A4D0EE-C7C4-4520-BC1D-3FD6D025CA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A4D0EE-C7C4-4520-BC1D-3FD6D025CA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39200A9-E744-4DD8-80E2-C43C54285937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39200A9-E744-4DD8-80E2-C43C54285937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39200A9-E744-4DD8-80E2-C43C54285937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39200A9-E744-4DD8-80E2-C43C54285937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B04A844-3282-4084-B3BA-1F5B15E355F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B04A844-3282-4084-B3BA-1F5B15E355F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B04A844-3282-4084-B3BA-1F5B15E355F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B04A844-3282-4084-B3BA-1F5B15E355F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0A4835A-3D1E-47C9-A211-266780FB38CE} = {BFCDC5B8-791D-449D-B28F-676189144B6C}
+		{46A4D0EE-C7C4-4520-BC1D-3FD6D025CA01} = {8268720A-16B1-40B8-97E6-B19121D66167}
+		{F39200A9-E744-4DD8-80E2-C43C54285937} = {8268720A-16B1-40B8-97E6-B19121D66167}
+		{9B04A844-3282-4084-B3BA-1F5B15E355F3} = {8268720A-16B1-40B8-97E6-B19121D66167}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54D62E94-2954-482D-AA79-F9A9D7F6F775}
+	EndGlobalSection
+EndGlobal
