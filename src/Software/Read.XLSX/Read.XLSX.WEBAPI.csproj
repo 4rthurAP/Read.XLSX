@@ -7,16 +7,11 @@
   <ItemGroup>
     <PackageReference Include="ExcelMapper" Version="5.2.328" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
-    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1000" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Mapper\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Read.XLSX.Application\Read.XLSX.Application.csproj" />
+    <ProjectReference Include="..\..\SoftwareContext\Read.XLSX.Application\Read.XLSX.Application.csproj" />
   </ItemGroup>
 
 </Project>

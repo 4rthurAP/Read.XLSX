@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExcelMapper" Version="5.2.328" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Read.XLSX.Domain\Read.XLSX.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
