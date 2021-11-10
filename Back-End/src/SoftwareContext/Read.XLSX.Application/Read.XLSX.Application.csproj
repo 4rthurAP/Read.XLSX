@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="ExcelMapper" Version="5.2.328" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>

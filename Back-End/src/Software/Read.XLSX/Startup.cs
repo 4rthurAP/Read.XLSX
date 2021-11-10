@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Read.XLSX.Application.Applications;
 using Read.XLSX.Domain.Contracts.Application;
+using Read.XLSX.Domain.Models.Opcoes;
 
 namespace Read.XLSX
 {
@@ -23,6 +24,8 @@ namespace Read.XLSX
             services.AddScoped<IGetValoresApplication, GetValoresApplication>();
 
             services.AddControllers();
+
+            services.Configure<Diretorio>(Configuration.GetSection("Diretorios"));
             
             services.AddSwaggerGen(c =>
             {

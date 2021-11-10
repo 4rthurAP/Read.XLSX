@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Read.XLSX.Domain.Contracts.Application;
+using Read.XLSX.Domain.Models;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Read.XLSX.WEBAPI.Controllers
@@ -15,9 +17,15 @@ namespace Read.XLSX.WEBAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult> GetValores()
+        public async Task<ActionResult<List<IEnumerable<Pagamento>>>> GetValores()
         {
-            return Ok(await _getValoresApplication.GetValoresXlsx());
+            return Ok(await _getValoresApplication.GetValoresXlsxAsync());
+        }
+        
+        [HttpGet("buscarUsuarios")]
+        public async Task<ActionResult<List<IEnumerable<Pagamento>>>> GetUsuarios()
+        {
+            return Ok(await _getValoresApplication.GetUsuariosAsync());
         }
     }
 }

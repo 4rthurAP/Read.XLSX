@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEndApplication", "FrontEndApplication.csproj", "{30DC078C-41AC-4499-83D1-3663D2B79726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5447B9F6-C4BC-40D8-A362-5CCD16E36788}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sofware", "Sofware", "{2D1F2368-9F36-4605-B0EB-92E70ACD06F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SoftwareContext", "SoftwareContext", "{299ED514-4F22-40FF-B4C9-4DB57F42736A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{063326E1-E037-41C5-83AE-C0D0F7D285D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30DC078C-41AC-4499-83D1-3663D2B79726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DC078C-41AC-4499-83D1-3663D2B79726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DC078C-41AC-4499-83D1-3663D2B79726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DC078C-41AC-4499-83D1-3663D2B79726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063326E1-E037-41C5-83AE-C0D0F7D285D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063326E1-E037-41C5-83AE-C0D0F7D285D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063326E1-E037-41C5-83AE-C0D0F7D285D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063326E1-E037-41C5-83AE-C0D0F7D285D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30DC078C-41AC-4499-83D1-3663D2B79726} = {2D1F2368-9F36-4605-B0EB-92E70ACD06F9}
+		{2D1F2368-9F36-4605-B0EB-92E70ACD06F9} = {5447B9F6-C4BC-40D8-A362-5CCD16E36788}
+		{299ED514-4F22-40FF-B4C9-4DB57F42736A} = {5447B9F6-C4BC-40D8-A362-5CCD16E36788}
+		{063326E1-E037-41C5-83AE-C0D0F7D285D3} = {299ED514-4F22-40FF-B4C9-4DB57F42736A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C33C3A65-59E5-4E66-AD96-34A6DCA010C6}
+	EndGlobalSection
+EndGlobal

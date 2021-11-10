@@ -5,9 +5,9 @@ namespace Read.XLSX.Application.Helpers
 {
     public static class Utils
     {
-        public static List<Pagamento> GetPagamentos()
+        public static List<IEnumerable<Pagamento>> GetPagamentos()
         {
-            return new List<Pagamento>();
+            return new List<IEnumerable<Pagamento>>();
         }
     }
 }

@@ -1,0 +1,47 @@
+﻿<Window x:Class="FrontEndApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FrontEndApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="462" Width="1184">
+    <Grid>
+        <ListView x:Name="ListPagamentos" Margin="0,157,10,-24" Background="#FFE6E2E2" ScrollViewer.CanContentScroll="True" HorizontalAlignment="Right" Width="1174">
+            <ListView.ItemTemplate>
+                <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Style="{StaticResource tbkStyle}">
+                            <TextBlock.Inlines>
+                                <Run Text="Nome : "></Run>
+                                <Run Text="{Binding Id}"></Run>
+                            </TextBlock.Inlines>
+                        </TextBlock>
+                        <TextBlock Style="{StaticResource tbkStyle}">
+                            <TextBlock.Inlines>
+                                <Run Text="ID : "></Run>
+                                <Run Text="{Binding Tipo}"></Run>
+                            </TextBlock.Inlines>
+                        </TextBlock>
+                        <TextBlock Style="{StaticResource tbkStyle}">
+                            <TextBlock.Inlines>
+                                <Run Text="Gênero : "></Run>
+                                <Run Text="{Binding Valor}"></Run>
+                            </TextBlock.Inlines>
+                        </TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+               <ListView.ItemTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <ListView x:Name="ListUsuarios" Margin="0,0,0,277" Background="#FF5B74AA">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Window>
